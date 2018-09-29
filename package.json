@@ -1,0 +1,23 @@
+{
+  "name": "stylme",
+  "version": "1.0.0",
+  "description": "My kickass Nuxt.js project",
+  "author": "Benito Gallardo",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.0.0",
+    "node-sass": "^4.9.3",
+    "nuxt-sass-resources-loader": "^2.0.5",
+    "sass-loader": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
