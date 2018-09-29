@@ -29,7 +29,7 @@ export default {
   head(){
     return {
       script: [
-        {src: 'https://d3gxy7nm8y4yjr.cloudfront.net/js/embed.js'}
+        {src: 'https://d3gxy7nm8y4yjr.cloudfront.net/js/embed.js', defer: true}
       ]
     }
   },
